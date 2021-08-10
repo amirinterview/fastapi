@@ -25,4 +25,4 @@ jobs:
         pip install pytest starlette pydantic
     - name: Unit Test
       run: |
-        python unit_test.py
+        ls -lh && python ./unit_test.py
